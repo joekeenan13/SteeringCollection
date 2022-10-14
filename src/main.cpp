@@ -25,7 +25,7 @@ void setup() {
     Serial.println("Starting...");
     button.attach(BUTTONPIN, INPUT_PULLUP);
     button.interval(100);
-    button.setPressedState(1);
+    button.setPressedState(0);
 }
 
 void loop() {
